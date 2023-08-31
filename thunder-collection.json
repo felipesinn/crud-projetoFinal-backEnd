@@ -1,0 +1,66 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Cadastro de usuario",
+    "dateExported": "2023-08-31T20:24:27.854Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "760376a2-c4f9-4171-9722-39af6265bee9",
+            "colId": "6966a560-a2c8-4cc1-8f14-80aff02e2362",
+            "containerId": "",
+            "name": "cadastrar ",
+            "url": "https://crud-backend-one-mgcm.onrender.com/users/signup",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-31T19:59:57.652Z",
+            "modified": "2023-08-31T20:17:06.356Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"felip sinn\",\n  \"email\": \"felp@GMAIL.COM\",\n  \"password\": \"KBKJBKJBKJ\"\n  \n\n }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "084d3908-e46b-4b17-99fd-8b7bbabac4aa",
+            "colId": "6966a560-a2c8-4cc1-8f14-80aff02e2362",
+            "containerId": "",
+            "name": "login",
+            "url": "https://crud-backend-one-mgcm.onrender.com/users/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-31T20:16:45.227Z",
+            "modified": "2023-08-31T20:16:45.227Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"email\": \"felpe@GMAIL.COM\",\n  \"password\": \"KBKJBKJBKJ\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "816ffe86-6885-403e-a9b1-6e3dc9d30422",
+            "colId": "6966a560-a2c8-4cc1-8f14-80aff02e2362",
+            "containerId": "",
+            "name": "criar recagado",
+            "url": "https://crud-backend-one-mgcm.onrender.com/messages",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-31T20:18:20.689Z",
+            "modified": "2023-08-31T20:23:19.487Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"teste\", \n  \"description\": \"ghjhu\",\n  \"userId\":\"bab399b3-fc74-4186-bc9e-96088ce82303\" \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
